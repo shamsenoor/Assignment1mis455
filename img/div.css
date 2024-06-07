@@ -1,0 +1,21 @@
+.blue p{
+    margin-right: 20px;
+    width: 50%;
+    border: 5px solid salmon;
+    background-color: aquamarine;
+}
+.red p{
+    margin-right: 20px;
+    width: 50%;
+    padding: 20px;
+    border: 2px solid royalblue;
+    
+
+}
+.blue{
+    display: flex;
+
+}
+.red{
+    display: flex;
+}

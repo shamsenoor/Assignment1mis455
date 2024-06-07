@@ -1,0 +1,149 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #bd4242;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(241, 238, 238);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #c9901e;
+  }
+  .active {
+    background-color: #2c4ab8;
+  }
+  h2 {
+    margin: 10px;
+    text-align: center;
+    color: black;
+    font-size: x-large;
+  }
+ .blue img {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+ } 
+
+ .blue img:hover{
+  width: 150px;
+  border: 1px solid rebeccapurple;
+  box-shadow: 3px 5px 7px salmon;
+  border-radius: 150px;
+
+ }
+
+ .blue h4 {
+    text-align: center;
+    color: #c9901e;
+ }
+ .red img{
+  width: 300px; 
+  box-shadow: #bd4242;
+
+ }
+
+ .row {
+  display: flex;
+ }
+ .red p{
+  width: 60%;
+  margin-left: 50px;
+  border-radius: 20px;
+  border: solid salmon;
+  background-color: grey;
+  padding: 20px;
+ }
+ .red h3{
+  text-align: center;
+  color: yellowgreen;
+ }
+
+.grey p{
+  width: 80%;
+  margin-left: 10px;
+}
+.grey img{
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+}
+.grey h4{
+  text-align: center;
+  margin-left: 50px;
+  border-radius: 20px;
+  border: #bd4242;
+  background-color: aquamarine;
+  color: red;
+}
+
+.grey img:hover{
+  width: 150px;
+  border: 1px solid rgb(198, 86, 34);
+  box-shadow: 3px 5px 7px rgb(87, 181, 73);
+  border-radius: 150px;
+}
+
+.grey{
+  background-color: aquamarine;
+}
+
+.black h3{
+  text-align: center;
+  color: #bd4242;
+}
+
+.black img {
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottom {
+  display: grid;
+  /* grid-templete column: 1fr 1fr  */
+  grid-template-columns: repeat(2, 1fr);
+}
+.bottom p {
+  width: 50%;
+  border: 2px solid rebeccapurple;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  background-color: aliceblue;
+  margin: right;
+}
+
+.top img{
+  width: 250px;
+}
+
+.patrick-hand-sc-regular {
+  font-family: "Patrick Hand SC", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libre-baskerville-regular-italic {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
